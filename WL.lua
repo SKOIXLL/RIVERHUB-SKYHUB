@@ -31,6 +31,8 @@ elseif game.gameId == 3825332406 then
   GameLoad = "ED"
 elseif game.gameId == 4778845442 then
     GameLoad = "TTD"
+elseif game.gameId == 8737899170 then
+    GameLoad = "PET99"
 end
 local var,err = pcall(function ()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/" .. GameLoad .. ".lua"))()
